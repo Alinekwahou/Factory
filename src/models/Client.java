@@ -6,7 +6,7 @@ public class Client {
 	
 		Produitfactory produitfactoryA=new ProduitfactoryA();
 		Produitfactory produitfactoryB=new ProduitfactoryB();
-		Produitfactory ProduitfactoryC=new ProduitfactoryC();
+		
 		Produit produit=null;
 		
 		System.out .print ("utilisation de la premiere fabrique");
@@ -17,9 +17,7 @@ public class Client {
 		produit=produitfactoryB.createproduit();
 		produit.methode();
 		
-		System.out .print ("utilisation de la troisieme fabrique");
-		produit=ProduitfactoryC.createproduit();
-		produit.methode();
+	
 
 	}
 
